@@ -30,6 +30,26 @@ We do not collect:
 
 ---
 
+# Microphone Access
+
+### What We Access
+Calm Candle requests access to your device's microphone **only** when you enable the **"Blow to Extinguish"** feature in Settings.
+
+### What We Do NOT Do
+- We do **not** record your voice or any audio
+- We do **not** store, save, or log any audio data
+- We do **not** transmit any audio to our servers or any third party
+- We do **not** process your audio beyond detecting a sound level threshold in real time
+
+### How It Works
+The microphone is used solely to measure the **ambient sound level** (in decibels) on your device. When the detected level exceeds a threshold — consistent with blowing — the app extinguishes the on-screen candle. This processing happens entirely **on-device, in real time**, and no audio is ever retained.
+
+### Your Control
+- The microphone is **never accessed** unless you explicitly turn on "Blow to Extinguish" in Settings
+- You can revoke microphone permission at any time via your device Settings → Apps → Calm Candle → Permissions
+- Disabling microphone permission simply turns off the blow-to-extinguish feature; all other app functionality continues normally
+---
+
 # Data Security
 
 Calm Candle: Sleep Sounds is designed to work primarily offline and does not require an internet connection for core functionality.
